@@ -4,47 +4,56 @@
 
 using namespace std;
 
-void drawBalls(int max_ball_number = 1, int draws = 1){
+bool hasItem( int *arr, int size, int num){
+    bool contain = false;
 
-    int *storage;
-    storage = new int[draws];
-
-    for (int i = 0; i < draws; i++){
-        storage[i] = 0;
-        int random = rand() % max_ball_number + 1;
-        bool present = false;
-        for(int j = 0; j < i; j++){
-            if(storage[j] == random){
-                present = true;
-                break;
-            }
-        if(!present){
-            storage[i] = random;
-        }
+    for (int i = 0; i < size; i++){
+        if(arr[i] == num){
+            contain = true;
+            break;
         }
     }
+    return contain;
+}
 
-    for(int i = 0;i < draws; i++){
-        
-        if(storage[i])
-            cout << storage[i] << " ";
+void printArray(int *arr, int size) {
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
     }
     cout << endl;
-
-
 }
 
 int main(void) {
 	int maxball;
-	int ballsno;
+	int draw_amount;
 
 	cout << "Max ball number? ";
 	cin >> maxball;
 	cout << "How many balls? ";
-	cin >> ballsno;
+	cin >> draw_amount;
 	srand(time(NULL));
 
-    drawBalls(maxball, ballsno);
+    if(maxball < draw_amount){
+        cout << "Número de draw não pode ser maior que max ball." << endl;
+        return 1;
+    }
 
+    int *storage;
+    storage = new int[draw_amount];
+
+    for (int i = 0; i < draw_amount; i++){
+        storage[i] = 0;
+        int random;
+
+        do{
+            random = rand() % maxball + 1;
+        } while (hasItem(storage, i, random));
+        
+        storage[i] = random;
+    }
+
+    printArray(storage, draw_amount);
+
+    delete[] storage;
 	return 0;
 }
