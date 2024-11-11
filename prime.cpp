@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/**
+ * @brief Tests if a number is prime.
+ * @param num Number to test.
+ */
 bool isPrime(int num) {
     if(num & 1){//Fast Odd checking
         for(int i = 3; i * i <= num; i += 2){
