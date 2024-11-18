@@ -1,6 +1,5 @@
 
-#include <iostream>
-using namespace std;
+
 // int main() {
 //         int a = 2;
 //         switch(a << a) {
@@ -20,25 +19,19 @@ using namespace std;
 //     return 0;
 
 // }
-
+    
 #include <iostream>
+
 using namespace std;
-    
-int *make(int v) {
-    int *p = new int;
-    *p = v + 1;
-    return p;
+
+int main()
+{
+        int a = 0x02, b = 001;
+        int c = a ^ b;
+        int d = c | a;
+        int e = d & 0;
+
+        cout << e;
 }
-int *play(int &v) {
-    cout << ++v;
-    return &v;
-}
-    
-void remove(int *v) {
-    delete v;
-}
-    int main() {
-    remove(play(*make(3)));
-    return 0;
-}
+
 
