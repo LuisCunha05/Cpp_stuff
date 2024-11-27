@@ -1,0 +1,6 @@
+﻿  hello.cpp
+  ip_checker.cpp
+C:\Users\Administrador\Documents\VS\netacad\src\ip_checker.cpp(44,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Administrador\Documents\VS\netacad\src\ip_checker.cpp(45,23): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  netacad.vcxproj -> C:\Users\Administrador\Documents\VS\netacad\bin\x64\Debug\netacad.exe

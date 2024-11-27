@@ -1,3 +1,8 @@
 *.exe
 build/
 .vscode/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vsidx
+*.opendb

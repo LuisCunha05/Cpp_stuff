@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\VS\\netacad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A808666C-1C93-48E3-975A-0306843E1AE7}|netacad.vcxproj|C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\hello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A808666C-1C93-48E3-975A-0306843E1AE7}|netacad.vcxproj|solutionrelative:src\\hello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A808666C-1C93-48E3-975A-0306843E1AE7}|netacad.vcxproj|C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\ip_checker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A808666C-1C93-48E3-975A-0306843E1AE7}|netacad.vcxproj|solutionrelative:src\\ip_checker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A808666C-1C93-48E3-975A-0306843E1AE7}|netacad.vcxproj|C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\remove_filtered_words.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A808666C-1C93-48E3-975A-0306843E1AE7}|netacad.vcxproj|solutionrelative:src\\remove_filtered_words.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ip_checker.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\ip_checker.cpp",
+              "RelativeDocumentMoniker": "src\\ip_checker.cpp",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\ip_checker.cpp",
+              "RelativeToolTip": "src\\ip_checker.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-27T00:28:05.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "remove_filtered_words.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\remove_filtered_words.cpp",
+              "RelativeDocumentMoniker": "src\\remove_filtered_words.cpp",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\remove_filtered_words.cpp",
+              "RelativeToolTip": "src\\remove_filtered_words.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T01:10:47.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hello.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\hello.cpp",
+              "RelativeDocumentMoniker": "src\\hello.cpp",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\VS\\netacad\\src\\hello.cpp",
+              "RelativeToolTip": "src\\hello.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T01:05:32.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
